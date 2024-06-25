@@ -1,0 +1,287 @@
+/* Restante do seu CSS aqui */
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin-top: 3rem; /* Adiciona margem superior para separar do footer */
+}
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5rem; /* Ajuste no padding-top para separar do header */
+}
+
+.login-box {
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+  margin-bottom: 3rem; /* Adiciona margem inferior para separar do footer */
+}
+
+/* Footer CSS continua como está */
+/*COMEÇA AQUI*/
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+header {
+  background-color: #2c2c2c;
+  color: #fff;
+  padding: 10px 0;
+}
+
+.logoheader {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.logoheader {
+  color: #0084ff;
+}
+
+.logoheader span {
+  color: antiquewhite;
+}
+
+.logoheader img {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+nav ul li {
+  color: antiquewhite;
+  margin-right: 1.5rem;
+  cursor: pointer;
+}
+
+nav ul li:hover {
+  color: #0084ff;
+  transition: transform 0.5s;
+  transform: scale(1.2);
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navbar li {
+  margin: 0 10px;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+  color: #007bff;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding-top: 10.5rem;
+}
+
+.login-box {
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: #333;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.input-group {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.input-group i {
+  position: absolute;
+  top: 50%;
+  left: 15px;
+  transform: translateY(-50%);
+  color: #999;
+}
+
+.input-group input {
+  width: calc(100% - 40px);
+  padding: 10px 15px 10px 40px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  transition: border-color 0.3s ease;
+}
+
+.input-group input:focus {
+  border-color: #007bff;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background: #007bff;
+  border: none;
+  border-radius: 30px;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: #004c94;
+}
+
+.error-message {
+  color: red;
+  text-align: center;
+  margin-top: 10px;
+  display: none;
+  font-size: 14px;
+}
+
+/* Footer */
+
+/* Footer */
+
+.conteudo-pagina {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+footer {
+  background-color: #2c2c2c;
+  color: #8f8f8f;
+  padding: 2rem 1rem; /* Reduzi o padding para ocupar menos espaço verticalmente */
+  text-align: center;
+}
+
+.background-cinza {
+  background-color: #2c2c2c;
+}
+
+.conteudo-footer {
+  display: flex;
+  flex-wrap: wrap; /* Permite que os itens sejam envolvidos em telas menores */
+  justify-content: space-between; /* Distribui os itens uniformemente */
+  align-items: center;
+  color: #8f8f8f;
+  padding: 2rem 1rem; /* Ajuste no padding para ocupar menos espaço verticalmente */
+  gap: 2rem;
+}
+
+.download-options > * {
+  margin: 1rem 0;
+}
+
+.download-options > p:first-child {
+  font-weight: bold;
+  color: antiquewhite;
+}
+
+.download-options > div {
+  display: flex;
+  flex-wrap: wrap; /* Permite que os itens sejam envolvidos em telas menores */
+  justify-content: center; /* Centraliza os itens */
+  gap: 1rem;
+}
+
+.download-options > div img {
+  width: 150px; /* Reduzi um pouco o tamanho da imagem */
+}
+
+.logo-footer {
+  text-align: center;
+}
+
+.logo {
+  color: #0084ff;
+}
+
+.logo span {
+  color: antiquewhite;
+}
+
+.links-footer h3 {
+  color: aliceblue;
+  margin-bottom: 0.8rem;
+}
+
+.links-footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+.links-footer ul li {
+  margin-bottom: 0.5rem;
+  cursor: pointer;
+}
+
+.copyright {
+  color: antiquewhite;
+  padding: 1rem 0; /* Reduzi o padding para ocupar menos espaço verticalmente */
+  text-align: center;
+  font-size: 0.8rem; /* Ajuste de tamanho de fonte para telas menores */
+}
+
+@media (max-width: 800px) {
+  .conteudo-footer {
+    flex-direction: column; /* Altera para coluna em telas menores */
+    align-items: flex-start; /* Alinha itens à esquerda */
+    padding: 1rem; /* Ajuste no padding para ocupar menos espaço verticalmente */
+  }
+
+  .download-options > div {
+    justify-content: flex-start; /* Alinha itens à esquerda */
+  }
+
+  .download-options > div img {
+    width: 120px;
+  }
+
+  .copyright {
+    font-size: 0.7rem; /* Reduzi o tamanho da fonte */
+  }
+}
