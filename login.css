@@ -1,18 +1,18 @@
-/* Restante do seu CSS aqui */
+
 
 .main {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
-  margin-top: 3rem; /* Adiciona margem superior para separar do footer */
+  margin-top: 3rem; 
 }
 
 .login-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 5rem; /* Ajuste no padding-top para separar do header */
+  padding-top: 5rem; 
 }
 
 .login-box {
@@ -23,11 +23,10 @@
   width: 100%;
   max-width: 400px;
   text-align: center;
-  margin-bottom: 3rem; /* Adiciona margem inferior para separar do footer */
+  margin-bottom: 3rem; 
 }
 
-/* Footer CSS continua como está */
-/*COMEÇA AQUI*/
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -182,7 +181,7 @@ button:hover {
   font-size: 14px;
 }
 
-/* Footer */
+
 
 /* Footer */
 
@@ -194,8 +193,12 @@ button:hover {
 footer {
   background-color: #2c2c2c;
   color: #8f8f8f;
-  padding: 2rem 1rem; /* Reduzi o padding para ocupar menos espaço verticalmente */
+  padding: 2rem 1rem; 
   text-align: center;
+  flex-shrink: 0;    
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 
 .background-cinza {
@@ -204,11 +207,11 @@ footer {
 
 .conteudo-footer {
   display: flex;
-  flex-wrap: wrap; /* Permite que os itens sejam envolvidos em telas menores */
-  justify-content: space-between; /* Distribui os itens uniformemente */
+  flex-wrap: wrap; 
+  justify-content: space-between; 
   align-items: center;
   color: #8f8f8f;
-  padding: 2rem 1rem; /* Ajuste no padding para ocupar menos espaço verticalmente */
+  padding: 2rem 1rem; 
   gap: 2rem;
 }
 
@@ -223,13 +226,13 @@ footer {
 
 .download-options > div {
   display: flex;
-  flex-wrap: wrap; /* Permite que os itens sejam envolvidos em telas menores */
-  justify-content: center; /* Centraliza os itens */
+  flex-wrap: wrap; 
+  justify-content: center; 
   gap: 1rem;
 }
 
 .download-options > div img {
-  width: 150px; /* Reduzi um pouco o tamanho da imagem */
+  width: 150px; 
 }
 
 .logo-footer {
@@ -261,27 +264,32 @@ footer {
 
 .copyright {
   color: antiquewhite;
-  padding: 1rem 0; /* Reduzi o padding para ocupar menos espaço verticalmente */
+  padding: 1rem 0; 
   text-align: center;
-  font-size: 0.8rem; /* Ajuste de tamanho de fonte para telas menores */
+  font-size: 0.8rem; 
 }
 
-@media (max-width: 800px) {
-  .conteudo-footer {
-    flex-direction: column; /* Altera para coluna em telas menores */
-    align-items: flex-start; /* Alinha itens à esquerda */
-    padding: 1rem; /* Ajuste no padding para ocupar menos espaço verticalmente */
-  }
+/* Media Queries Footer */
 
-  .download-options > div {
-    justify-content: flex-start; /* Alinha itens à esquerda */
-  }
+@media (max-width: 800px){
+    .conteudo-footer{
+        display: inline;
+        font-size: 0.8rem;
+    }
 
-  .download-options > div img {
-    width: 120px;
-  }
+    .conteudo-footer>div{
+        padding: 1rem;       
+    }
 
-  .copyright {
-    font-size: 0.7rem; /* Reduzi o tamanho da fonte */
-  }
+    .download-options>div{
+        display: inline;
+    }
+
+    .download-options>div img{
+        width: 120px;
+    }
+
+    .copyright{
+        font-size: 0.8rem;
+    }
 }
